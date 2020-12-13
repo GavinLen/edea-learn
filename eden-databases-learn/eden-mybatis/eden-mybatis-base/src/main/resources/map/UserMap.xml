@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.eden.learn.databases.mybatis.base.dao.UserDao">
+
+    <resultMap id="baseMap" type="xyz.eden.learn.databases.common.entity.UserEntity">
+
+    </resultMap>
+
+    <sql id="TABLE_NAME">t_user</sql>
+
+    <insert id="addUser" parameterType="xyz.eden.learn.databases.common.entity.UserEntity">
+        INSERT INTO <include refid="TABLE_NAME" />(name,email,create_datetime) VALUES (#{name}, #{email}, #{createDatetime})
+    </insert>
+    
+    <select id="getUserById" resultType="xyz.eden.learn.databases.common.entity.UserEntity">
+        SELECT * FROM <include refid="TABLE_NAME"/> WHERE id = #{userId}
+    </select>
+
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eden-mybatis-spring" />
+        <module name="eden-spring-learn" />
+        <module name="eden-mybatis-base" />
+        <module name="eden-databases-jdbc" />
+        <module name="eden-databases-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="eden-mybatis-learn" target="1.8.0_172" />
+      <module name="eden-mybatis-plus" target="1.8.0_172" />
+      <module name="eden.databases-mybatis.base" target="1.8.0_172" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

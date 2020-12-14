@@ -9,15 +9,21 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>eden-databases-learn</module>
-        <module>eden-spring-learn</module>
+        <module>tool-learn</module>
+        <module>databases-learn</module>
+        <module>algorithm-learn</module>
+        <module>security-learn</module>
+        <module>bigdata-learn</module>
     </modules>
 
     <properties>
-        <jdk.version>${java.version}</jdk.version>
+        <jdk.version>1.8</jdk.version>
         <maven.compiler.source>${jdk.version}</maven.compiler.source>
         <maven.compiler.target>${jdk.version}</maven.compiler.target>
         <maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>

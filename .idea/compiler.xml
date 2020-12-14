@@ -8,17 +8,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eden-mybatis-spring" />
-        <module name="eden-spring-learn" />
-        <module name="eden-mybatis-base" />
-        <module name="eden-databases-jdbc" />
-        <module name="eden-databases-common" />
+        <module name="databases-mybatis-base" />
+        <module name="security-learn" />
+        <module name="datastructure-learn" />
+        <module name="tool-json" />
+        <module name="databases-mybatis-spring" />
+        <module name="bigdata-learn" />
+        <module name="databases-common" />
+        <module name="tool-file" />
+        <module name="databases-jdbc" />
+        <module name="leetcode-learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="eden-mybatis-learn" target="1.8.0_172" />
-      <module name="eden-mybatis-plus" target="1.8.0_172" />
-      <module name="eden.databases-mybatis.base" target="1.8.0_172" />
+      <module name="jdbc-base" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

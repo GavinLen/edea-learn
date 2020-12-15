@@ -11,5 +11,13 @@
 
     <artifactId>databases-mybatis-base</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>xyz.eden.learn.databases.common</groupId>
+            <artifactId>databases-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

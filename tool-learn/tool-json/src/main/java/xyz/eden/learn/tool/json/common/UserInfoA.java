@@ -1,6 +1,5 @@
 package xyz.eden.learn.tool.json.common;
 
-import com.alibaba.fastjson.annotation.JSONField;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -21,14 +20,12 @@ import java.util.Date;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserInfo implements Serializable {
+public class UserInfoA implements Serializable {
 
     private Long id;
     private String name;
-    @JsonFormat(pattern = "yyyy年MM月dd日 HH:mm:ss", timezone = "")
-//    @JSONField(format = "yyyy年MM月dd日 HH:mm:ss")
-    private Date createDatetime;
-    private long datetime;
+    private String createDatetime;
+    private String datetime;
 
     @Override
     public String toString() {

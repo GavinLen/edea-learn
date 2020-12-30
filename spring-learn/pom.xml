@@ -9,21 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>xyz.eden.learn.tool</groupId>
-    <artifactId>tool-learn</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>tool-json</module>
-        <module>tool-file</module>
-        <module>tool-apache</module>
-        <module>tool-package</module>
-    </modules>
-
-    <dependencies>
-
-    </dependencies>
-
-
+    <groupId>xyz.eden.learn.spring</groupId>
+    <artifactId>spring-learn</artifactId>
 
 
 </project>

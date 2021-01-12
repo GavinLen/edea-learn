@@ -1,0 +1,13 @@
+spring:
+  #  mvc:
+  #    # 静态路径模式
+  #    static-path-pattern: /res/**
+  web:
+    resources:
+      # 静态资源本地路径
+      static-locations:
+        - classpath:res/
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true

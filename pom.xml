@@ -16,6 +16,7 @@
         <module>bigdata-learn</module>
         <module>spring-learn</module>
         <module>spring-boot-learn</module>
+        <module>api-learn</module>
     </modules>
 
     <properties>

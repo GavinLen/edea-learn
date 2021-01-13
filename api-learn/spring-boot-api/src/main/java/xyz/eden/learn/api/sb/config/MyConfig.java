@@ -10,7 +10,7 @@ import xyz.eden.learn.api.sb.entity.UserEntity;
  * @version 1.0.0
  * @date 2021/1/12 21:02
  */
-@Configuration(proxyBeanMethods = true)
+@Configuration(proxyBeanMethods = false)
 public class MyConfig {
 
     @Bean

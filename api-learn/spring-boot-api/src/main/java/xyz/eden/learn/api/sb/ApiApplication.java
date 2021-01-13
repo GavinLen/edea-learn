@@ -26,7 +26,7 @@ public class ApiApplication {
         UserEntity userEntityByMethod = myConfig.userEntity();
 
         UserEntity userEntityByContext = applicationContext.getBean(UserEntity.class);
-
+        System.out.println(userEntityByMethod == userEntityByContext);
 
     }
 }

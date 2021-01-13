@@ -1,0 +1,27 @@
+# Spring 配置
+spring:
+  application:
+    name: crmfangapi
+  servlet:
+    multipart:
+      max-file-size: 256MB
+      max-request-size: 1024MB
+    converters:
+  thymeleaf:
+    encoding: UTF-8
+    mode: HTML5
+    servlet:
+      content-type: text/html
+    prefix: classpath:/views/
+    suffix: .html
+    cache: true
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+    add-mappings: false
+  main:
+    allow-bean-definition-overriding: true
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false

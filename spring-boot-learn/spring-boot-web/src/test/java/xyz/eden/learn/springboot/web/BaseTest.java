@@ -1,7 +1,9 @@
 package xyz.eden.learn.springboot.web;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 import xyz.eden.learn.springboot.web.entity.UserEntity;
 import xyz.eden.learn.springboot.web.service.IUserService;
 
